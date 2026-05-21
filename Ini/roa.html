@@ -6,6 +6,7 @@
 <title>ROA Consultorías</title>
 
 <style>
+
 :root{
   --azul:#2f63b7;
   --verde:#55b948;
@@ -32,6 +33,7 @@ body{
   margin:auto;
   min-height:100vh;
   background:var(--blanco);
+  box-shadow:0 0 30px rgba(0,0,0,.08);
 }
 
 /* ENCABEZADO */
@@ -208,6 +210,11 @@ body{
   border-radius:16px;
   font-weight:800;
   font-size:15px;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
 }
 
 .btn-primary{
@@ -228,17 +235,22 @@ body{
 /* FOOTER */
 
 .footer{
-  padding:24px;
+  padding:28px 24px;
   text-align:center;
   background:#f1f4f7;
   color:var(--gris);
   font-size:13px;
-  line-height:1.6;
+  line-height:1.8;
 }
 
 .footer strong{
   color:var(--azul);
-  font-size:16px;
+  font-size:18px;
+}
+
+.footer .role{
+  color:#5f6c75;
+  font-size:14px;
 }
 
 </style>
@@ -248,24 +260,36 @@ body{
 
 <div class="container">
 
+  <!-- HERO -->
   <section class="hero">
+
+    <!-- CAMBIA logo-roa.png POR EL NOMBRE REAL DE TU LOGO -->
     <img class="logo-img" src="logo-roa.png" alt="ROA Consultorías">
+
     <h1>Conectamos personas, procesos y tecnología</h1>
+
     <p>
       Consultoría tecnológica enfocada en crear soluciones útiles,
       claras y alineadas a las necesidades reales de cada organización.
     </p>
+
   </section>
 
+  <!-- INTRO -->
   <section class="intro">
+
     <h2>ROA Consultorías</h2>
+
     <p>
       Integramos tecnología, datos y estrategia para mejorar procesos,
       optimizar decisiones y acompañar a las empresas en su transformación.
     </p>
+
   </section>
 
+  <!-- ENFOQUE -->
   <section class="section">
+
     <div class="title">
       <div class="dot"></div>
       <h2>Nuestro enfoque</h2>
@@ -273,75 +297,130 @@ body{
 
     <div class="card">
       <h3>Diagnóstico</h3>
-      <p>Analizamos el estado actual de procesos, herramientas y necesidades.</p>
+      <p>
+        Analizamos el estado actual de procesos, herramientas y necesidades.
+      </p>
     </div>
 
     <div class="card">
       <h3>Estrategia</h3>
-      <p>Diseñamos soluciones prácticas, escalables y orientadas a resultados.</p>
+      <p>
+        Diseñamos soluciones prácticas, escalables y orientadas a resultados.
+      </p>
     </div>
 
     <div class="card">
       <h3>Implementación</h3>
-      <p>Acompañamos la ejecución para que la tecnología realmente funcione.</p>
+      <p>
+        Acompañamos la ejecución para que la tecnología realmente funcione.
+      </p>
     </div>
+
   </section>
 
+  <!-- SERVICIOS -->
   <section class="section">
+
     <div class="title">
       <div class="dot"></div>
       <h2>Servicios</h2>
     </div>
 
     <div class="services">
-      <div class="service"><span>●</span> Consultoría tecnológica</div>
-      <div class="service"><span>●</span> Automatización de procesos</div>
-      <div class="service"><span>●</span> Dashboards y análisis de datos</div>
-      <div class="service"><span>●</span> Implementación de soluciones digitales</div>
-      <div class="service"><span>●</span> Capacitación y acompañamiento</div>
-      <div class="service"><span>●</span> Integración de tecnología aplicada</div>
+
+      <div class="service">
+        <span>●</span> Consultoría tecnológica
+      </div>
+
+      <div class="service">
+        <span>●</span> Automatización de procesos
+      </div>
+
+      <div class="service">
+        <span>●</span> Dashboards y análisis de datos
+      </div>
+
+      <div class="service">
+        <span>●</span> Implementación de soluciones digitales
+      </div>
+
+      <div class="service">
+        <span>●</span> Capacitación y acompañamiento
+      </div>
+
+      <div class="service">
+        <span>●</span> Integración de tecnología aplicada
+      </div>
+
     </div>
+
   </section>
 
+  <!-- BIO ASSESS -->
   <section class="bio">
+
     <h2>Bio Assess</h2>
+
     <p>
-      Una solución enfocada en medir experiencias, obtener información
-      objetiva y complementar procesos de evaluación, capacitación
-      o toma de decisiones.
+      Una solución enfocada en medir experiencias,
+      obtener información objetiva y complementar procesos
+      de evaluación, capacitación o toma de decisiones.
     </p>
+
   </section>
 
+  <!-- CTA -->
   <section class="cta">
+
     <h2>Tecnología con propósito</h2>
+
     <p>
       En ROA no se trata solo de implementar herramientas,
-      sino de conectar soluciones con personas, procesos y resultados.
+      sino de conectar soluciones con personas,
+      procesos y resultados.
     </p>
+
   </section>
 
+  <!-- BOTONES -->
   <div class="buttons">
-    <a class="btn btn-primary" href="https://roaconsultorias.com" target="_blank">
-      Visitar sitio web
+
+    <a class="btn btn-primary"
+       href="https://roaconsultorias.com"
+       target="_blank">
+       Visitar sitio web
     </a>
 
-    <a class="btn btn-green" href="https://roaconsultorias.com/#contacto" target="_blank">
-      Solicitar consultoría
+    <a class="btn btn-green"
+       href="https://wa.me/525578532462"
+       target="_blank">
+       Contactar a Octavio Rodas
     </a>
 
-    <a class="btn btn-light" href="mailto:contacto@roaconsultorias.com">
-      Enviar correo
+    <a class="btn btn-light"
+       href="mailto:biorodascortes@gmail.com">
+       biorodascortes@gmail.com
     </a>
+
   </div>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <strong>ROA Consultorías</strong><br>
-    Tecnología · Procesos · Personas
+
+    <strong>Octavio Salvador Rodas Cortés</strong><br>
+
+    <div class="role">
+      Director
+    </div>
+
+    <br>
+
+    📞 55 7853 2462<br>
+    ✉ biorodascortes@gmail.com
+
   </footer>
 
 </div>
 
-</body>
-</html>
 </body>
 </html>
